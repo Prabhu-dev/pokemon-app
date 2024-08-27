@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,487;1,487&display=swap');
+
+body{
+    padding: 2%;
+    background-color: black;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2,p {
+    color: ivory;
+    display: none;
+}
+
+.search-container {
+    display: flex;
+    column-gap: 10px;
+    width: 95%;
+}
+
+#sprite{
+    width: 100%;
+    height: auto;
+}
+
+#name-wrapper {
+    display: flex;
+    column-gap: 10px;
+}
+
+.wrapper {
+    background-color: green;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    width: 90%;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+input:focus {
+    outline: none;
+}
+
+#pokemon-id{
+    color: yellow;
+}
+
+span {
+    background-color: yellowgreen;
+    color: black;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: ivory;
+    padding: 10px 15px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+td {
+    color: black;
+    background-color: ivory;
+    padding: 5px;
+    border: 2px solid yellow;
+} 
+
+th {    
+   color: ivory;
+   border: 2px solid yellow;
+   background-color: black;
+   padding: 5px;
+}
+
+#stats-table {
+    display: none;
+    border-collapse: collapse;
+    border: 2px solid yellow;
+}
+
