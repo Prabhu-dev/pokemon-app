@@ -43,8 +43,7 @@ const searchPokeDex = async () => {
 
       console.log(data)
   } catch (err) {
-    pokemonName.innerText=`Please enter pokemon Name or Id`;
-    pokemonName.style.display="block";
+    alert("Please enter Pokemon Name or ID");
     console.log(err.message);
   }
       
